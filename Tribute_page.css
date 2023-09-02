@@ -1,0 +1,146 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-color: #f1e4e4ae;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 2 auto;
+  padding: 0px;
+  margin-left: 250px;
+  margin-bottom: auto;
+  background-color: #e5e2e2ae;
+  box-shadow: 0 2px 4px rgba(155, 148, 148, 0.1);
+  text-align: center;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* justify-items: center; */
+}
+
+header {
+  position: relative;
+  margin-left: auto;
+  margin-top: auto;
+  top:50px;
+  width:auto;
+  height: fit-content;
+}
+
+.background-image {
+  background-image: url('https://images.moneycontrol.com/static-mcnews/2020/07/7-APJ-ABDUL-KALAM.jpg?impolicy=website&width=1600&height=900');
+  background-size: cover;
+  height: 300px;
+  filter: brightness(60%);
+}
+
+header h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 36px;
+  color: rgb(61, 59, 59);
+  text-shadow: 2px 2px 4px rgba(105, 102, 102, 0.5);
+  background-color: rgba(77, 64, 64, 0.6);
+  padding: 10px 20px;
+  border-radius: 8px;
+  z-index:2; 
+}
+
+section.biography {
+  background-color: rgb(174, 165, 165);
+  margin-bottom: 100px;
+  padding: 50px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(148, 144, 144, 0.1);
+  text-align: left;
+  margin-top: 20px;
+}
+
+section h2 {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.animate-slide {
+  animation: slideIn 2.0s forwards;
+  position: relative;
+  top: 100px;
+  opacity: 0;
+}
+
+@keyframes slideIn {
+  from {
+    /* margin-bottom:; */
+    transform: translateY(auto);
+    opacity: 0;
+    top: 100px; 
+    margin-left: auto;
+  }
+  to {
+    transform: translateY(auto);
+    opacity: 1;
+    top: 200px; 
+    width:auto;
+    height: fit-content;
+  }
+}
+
+footer {
+  position: absolute;
+  bottom: -500px;
+  width: 950px;
+  background-color: #7a5c5cae;
+  padding: 20px;
+  text-align: center;
+  text-shadow: #346096ca;
+  margin-right: 100px;
+  /* top: 100px; */
+  clear: both; /* Clear any floated elements */
+}
+
+footer a {
+  color: #01152dca;
+  text-decoration: none;
+  /* bottom:250px;
+  width:auto;
+  height: fit-content; */
+}
+
+footer a:hover {
+  text-decoration: underline;
+  /* bottom:250px;
+  width:auto;
+  height: fit-content; */
+}
+
+.biography-content {
+  align-items: center;
+  margin-bottom:auto;
+  /* top:100px; */
+  height: fit-content;
+  max-height: 800px;
+  margin-bottom: auto;
+  justify-content: center;
+  flex-direction: column; 
+  align-items: center;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 9px;
+  box-shadow: 0 2px 4px rgba(84, 68, 68, 0.1);
+  margin-right: 20px;
+  top:100px;
+  width:auto;
+  height: fit-content;
+}
+
+.info {
+  flex: 2;
+  margin-bottom: 40px;
+  text-align: center;
+}
